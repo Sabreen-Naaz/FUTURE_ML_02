@@ -58,13 +58,6 @@ automatically classify support tickets based on their text.
 
 ---
 
-## 👩‍💻 Internship Information
-- Internship Track: **Machine Learning**
-- Organization: **Future Interns**
-- Task: **Support Ticket Classification (Task 2)**
-
----
-
 ## ✨ Conclusion
 This project demonstrates how Machine Learning can be applied to automate real-world
 business problems and improve efficiency in customer support systems.
