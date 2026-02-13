@@ -1,7 +1,6 @@
 # 🎯 Support Ticket Classification & Prioritization
 
 Machine Learning Task 2 – Future Interns (2026)  
-Developed by: Sabreen Naaz  
 
 ## 📌 Project Overview
 This project builds an NLP-based Machine Learning system that:
