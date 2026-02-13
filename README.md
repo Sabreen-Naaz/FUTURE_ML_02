@@ -1,64 +1,60 @@
-# Support Ticket Classification System (Machine Learning)
+# 🎯 Support Ticket Classification & Prioritization
 
-## 📌 Overview
-This project is part of the **Future Interns – Machine Learning Internship (Task 2)**.  
-The goal of this project is to automatically classify customer support tickets into
-different categories such as **Technical, Billing, and Account**, helping support teams
-respond faster and more efficiently.
+Machine Learning Task 2 – Future Interns (2026)  
+Developed by: Sabreen Naaz  
 
----
+## 📌 Project Overview
+This project builds an NLP-based Machine Learning system that:
 
-## 🎯 Problem Statement
-Customer support teams receive a large number of tickets daily. Manually reading and
-assigning categories is time-consuming and error-prone.  
-This project uses **Machine Learning and Natural Language Processing (NLP)** to
-automatically classify support tickets based on their text.
+- Classifies support tickets into categories (Ticket Type)
+- Predicts ticket priority (High / Medium / Low)
+- Helps businesses automate ticket routing and improve response time
 
 ---
 
-## 🛠️ Technologies Used
-- Python  
-- Jupyter Notebook  
-- Pandas & NumPy  
-- Scikit-learn  
-- TF-IDF Vectorizer  
+## 🗂 Dataset
+Customer Support Ticket Dataset (Kaggle)
+
+Key columns used:
+- Ticket Description (input text)
+- Ticket Type (category label)
+- Ticket Priority (priority label)
 
 ---
 
-## ⚙️ Project Workflow
-1. Created a dataset of support tickets with categories  
-2. Cleaned and preprocessed text data  
-3. Converted text into numerical form using **TF-IDF Vectorization**  
-4. Trained a **Machine Learning classification model**  
-5. Predicted the category of new support tickets  
+## ⚙️ Tools & Technologies
+- Python
+- Jupyter Notebook
+- NLTK (Text preprocessing)
+- TF-IDF (Feature extraction)
+- Scikit-learn (Logistic Regression)
+- Matplotlib & Seaborn (Visualization)
 
 ---
 
-## 📊 Output
-- The model predicts ticket categories such as:
-  - Technical
-  - Billing
-  - Account
-- This helps in automatic ticket routing and prioritization.
+## 🔄 Workflow
+1. Data cleaning & preprocessing  
+2. Text conversion using TF-IDF  
+3. Model training (Logistic Regression)  
+4. Model evaluation using accuracy, precision, recall, and confusion matrix  
 
 ---
 
-## 📁 Files in Repository
-- `ticket_classifier.ipynb` – Jupyter Notebook containing code and implementation  
-- `README.md` – Project documentation  
+## 📊 Results
+- Category Classification Accuracy: XX%
+- Priority Prediction Accuracy: XX%
+
+(Update with your actual accuracy values.)
 
 ---
 
-## 🚀 Skills Gained
-- Text preprocessing and NLP basics  
-- Feature extraction using TF-IDF  
-- Machine Learning classification  
-- Practical GitHub usage  
-- Real-world problem solving
+## 💼 Business Impact
+- Reduces manual ticket sorting  
+- Identifies urgent issues quickly  
+- Improves operational efficiency  
+- Enhances customer satisfaction  
 
 ---
 
-## ✨ Conclusion
-This project demonstrates how Machine Learning can be applied to automate real-world
-business problems and improve efficiency in customer support systems.
-
+## 🚀 Conclusion
+This project demonstrates a real-world NLP application for automating support ticket management using Machine Learning.
